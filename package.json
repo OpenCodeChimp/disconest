@@ -4,7 +4,8 @@
   "description": "A discord.js with nestjs integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/OpenCodeChimp/disconest/issues"
   },
-  "homepage": "https://github.com/OpenCodeChimp/disconest#readme"
+  "homepage": "https://github.com/OpenCodeChimp/disconest#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.1.4"
+  }
 }
