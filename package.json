@@ -1,0 +1,19 @@
+{
+  "name": "@opencodechimp/disconest",
+  "version": "1.0.0",
+  "description": "A discord.js with nestjs integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenCodeChimp/disconest.git"
+  },
+  "author": "opencodechimp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenCodeChimp/disconest/issues"
+  },
+  "homepage": "https://github.com/OpenCodeChimp/disconest#readme"
+}
