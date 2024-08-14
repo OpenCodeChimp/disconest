@@ -1,25 +1,44 @@
 {
-  "name": "@opencodechimp/disconest",
-  "version": "1.0.0",
-  "description": "A discord.js with nestjs integration",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OpenCodeChimp/disconest.git"
-  },
-  "author": "opencodechimp",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OpenCodeChimp/disconest/issues"
-  },
-  "homepage": "https://github.com/OpenCodeChimp/disconest#readme",
-  "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "husky": "^9.1.4"
-  }
+    "name": "@opencodechimp/disconest",
+    "version": "1.0.0",
+    "description": "A discord.js with nestjs integration",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky",
+        "lint": "eslint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OpenCodeChimp/disconest.git"
+    },
+    "author": "opencodechimp",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/OpenCodeChimp/disconest/issues"
+    },
+    "homepage": "https://github.com/OpenCodeChimp/disconest#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^19.4.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@types/node": "^22.3.0",
+        "@typescript-eslint/eslint-plugin": "^6.16.0",
+        "@typescript-eslint/parser": "^6.16.0",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-prettier": "^5.2.1",
+        "eslint-plugin-unused-imports": "^4.1.3",
+        "husky": "^9.1.4",
+        "prettier": "^3.3.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "@nestjs/common": "^10.4.1",
+        "@nestjs/core": "^10.4.1",
+        "discord.js": "^14.15.3",
+        "reflect-metadata": "^0.2.2",
+        "rxjs": "^7.8.1"
+    }
 }
